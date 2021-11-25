@@ -4,8 +4,8 @@ RewriteEngine on
 
 #RewriteRule ^accion/iniciar index.php?accion=iniciar
 RewriteRule ^accion index.php?accion=iniciar
-RewriteRule ^sinfo serverinfo.php
-RewriteRule ^getip getIPInfo.php
+RewriteRule ^sinfo /serverinfo.php
+RewriteRule ^getip /getIPInfo.php
 
 # FORCE SSL
 #RewriteCond %{HTTPS} off 
