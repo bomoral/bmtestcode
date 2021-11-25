@@ -10,6 +10,8 @@ $hello = "Dev Environment";
 
 echo '<b>' . $hello  . '</b>';
 
+echo '<br />';
+
 //testing new 8 feature
 
 function days_in_month(string $month): int
@@ -22,7 +24,7 @@ function days_in_month(string $month): int
     };
 }
 
-echo 'Days in ' . days_in_month('dec') . '.';
+echo 'Days in month are ' . days_in_month('dec') . '.';
 
 ?>
 
