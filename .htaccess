@@ -1,0 +1,12 @@
+RewriteEngine on 
+
+# MAIN CONFIG
+
+#RewriteRule ^accion/iniciar index.php?accion=iniciar
+RewriteRule ^accion index.php?accion=iniciar
+RewriteRule ^sinfo serverinfo.php
+RewriteRule ^getip getIPInfo.php
+
+# FORCE SSL
+#RewriteCond %{HTTPS} off 
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
