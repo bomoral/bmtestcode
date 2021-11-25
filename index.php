@@ -28,5 +28,7 @@ echo 'Days in month are ' . days_in_month('dec') . '.';
 
 ?>
 
+<a href="demo.php">Go to demo</a>
+
 </body>
 </html>
