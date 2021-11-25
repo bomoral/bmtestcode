@@ -1,1 +1,7 @@
-Hola Mundo
+<?php
+
+$hello = "hello";
+
+echo '<b>' . $hello  . '</b>';
+
+?>
