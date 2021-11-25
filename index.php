@@ -14,7 +14,7 @@ echo '<b>' . $hello  . '</b>';
 
 function days_in_month(string $month): int
 {
-    return match(strtolower(substr($name, 0, 3))) {
+    return match(strtolower(substr($month, 0, 3))) {
         'apr', 'jun', 'sep',  'nov'  => 30,       
         'jan', 'mar', 'may', 'jul', 'aug',  'oct', 'dec'  => 31,
         'feb' => is_leap($year) ? 29 : 28,
