@@ -6,7 +6,7 @@
 
 <?php
 
-$hello = "hello";
+$hello = "Dev Environment";
 
 echo '<b>' . $hello  . '</b>';
 
